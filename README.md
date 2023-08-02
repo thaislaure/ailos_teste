@@ -1,27 +1,67 @@
-# AilosTeste
+<h1 align="center" >
+  Teste Ailos
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.7.
+## <p id='tecnologies'>💻 Tecnologias </p>
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-## Development server
+-  [Angular v9.0.7](https://angular.io/)
+-  [TypeScript v3.7.5](https://www.typescriptlang.org/)
+-  [Node.js v12.11.1](https://nodejs.org/en/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## <p id='como'>💻 Como usar </p>
+Para clonar e executar este aplicativo, na linha de comando:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+# Clone este repositório
+$ git clone https://github.com/thaislaure/teste-ailos.git
 
-## Build
+Para execução do projeto siga os passos abaixo:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### Passo 1.1 - Instalando as dependências
 
-## Running unit tests
+acesse a pasta raiz do seu projeto e execute o comando abaixo:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Instalando com npm:
+```
+npm install
+```
 
-## Running end-to-end tests
+### Passo 2 - Subindo o JSON Server
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Utilizei o JSON Server serve para simular uma api fake.
 
-## Further help
+Instalando com npm:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+npm i json-server
+```
+
+Execute o comando abaixo na pasta raiz do seu projeto:
+
+```
+json-server --watch src/assets/data/db.json
+```
+Abra o *browser* e acesse a url:  http://localhost:3000/clientes para visualizar os dados.
+
+### Passo 3 - Rode o seu projeto
+
+Agora basta executar mais um comando para subir a aplicação e ver o seu projeto rodando no *browser* ;).
+
+```
+ng serve
+```
+
+Abra o *browser* e acesse a url http://localhost:4200. Pronto!
+
+
+### Todo list:
+
+Alguns pontos a ser desenvolvidos futuramente:
+
+-componente de button
+
+-componente de cards
+
+-time-line: faltou terminar o component, fiz apenas o html e css

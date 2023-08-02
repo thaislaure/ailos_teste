@@ -1,0 +1,65 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+
+.cardCad {
+  margin-top: 30px;
+  width: 250px;
+  height: 180px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  margin-right: 30px;
+
+  .cardTitle {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #204657;
+    padding-bottom: 3px;
+  }
+  .cardSubTitle {
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #787878;
+  }
+
+  .info {
+    padding-top: 20px;
+    .icon {
+      padding-top: 10px;
+      float: left;
+      padding-right: 20px;
+    }
+    .details {
+      float: left;
+      .detailsTitle {
+        font-family: sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        color: #787878;
+        padding-bottom: 3px;
+      }
+      .value {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #040f14;
+        width: 200px;
+      }
+    }
+    .account {
+      font-family: sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #165c7d;
+    }
+  }
+}
+}
+
+.clear {
+  clear: both;
+}

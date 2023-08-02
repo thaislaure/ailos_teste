@@ -1,0 +1,77 @@
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+
+  .info {
+    .title {
+      font-family: sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: #101213;
+    }
+
+    .nav {
+      padding-top: 4px;
+      font-family: sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      color: #787878;
+    }
+  }
+
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+
+    .notification {
+      padding-top: 5px;
+      padding-right: 5px;
+
+      .number {
+        width: 14px;
+        height: 14px;
+        background-color: #FF0000;
+        border-radius: 20px;
+        position: absolute;
+        top: 38px;
+        left: 83%;
+
+        span {
+          font-family: Open Sans;
+          font-size: 10px;
+          font-weight: 700;
+          color: #fff;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 2px;
+        }
+      }
+    }
+
+    .client {
+      padding-top: 5px;
+
+      button {
+        border: 1px solid #165c7d;
+        margin-left: 15px;
+        height: 30px;
+        width: 100px;
+        color: #165c7d;
+        background-color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: sans-serif;
+        border-radius: 15px;
+        cursor: pointer;
+      }
+    }
+
+    .profile {
+      margin-left: 15px;
+    }
+  }
+}
