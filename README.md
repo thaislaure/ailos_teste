@@ -15,13 +15,14 @@ Para clonar e executar este aplicativo, na linha de comando:
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/thaislaure/teste-ailos.git
+$ git clone https://github.com/thaislaure/ailos_teste.git
 
 Para execução do projeto siga os passos abaixo:
 
 #### Passo 1.1 - Instalando as dependências
 
 acesse a pasta raiz do seu projeto e execute o comando abaixo:
+- Premissa que ja tenha o node instalado no PC
 
 Instalando com npm:
 ```
@@ -49,9 +50,14 @@ Abra o *browser* e acesse a url:  http://localhost:3000/clientes para visualizar
 
 Agora basta executar mais um comando para subir a aplicação e ver o seu projeto rodando no *browser* ;).
 
+-Se não tiver o agular cli intalado, necessario instalar como administrado com o comando:
+npm install -g @angular/cli
+
 ```
 ng serve
 ```
 
 Abra o *browser* e acesse a url http://localhost:4200. Pronto!
+
+--Usar os Documentos que estão no arquivo db.json, para teste.
 
