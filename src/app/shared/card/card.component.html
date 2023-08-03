@@ -1,0 +1,45 @@
+<div class="cards" *ngIf="client.id != 0">
+  <div class="cardCad">
+    <div class="cardTitle">Situação cadastral do CPF</div>
+    <div class="cardSubTitle">Consulta na Receita Federal</div>
+    <div class="info">
+      <div class="icon">
+        <img src="assets/icon/new-user.svg" alt="profile" />
+      </div>
+      <div class="details">
+        <div class="detailsTitle">Nome</div>
+        <div class="value">{{ client.nome }}</div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="info">
+      <div class="icon">
+        <img src="assets/icon/check.svg" alt="card" />
+      </div>
+      <div class="details">
+        <div class="detailsTitle">Situação do CPF</div>
+        <div class="value">{{ client.situacao }}</div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="cardCad" *ngFor="let conta of client.contas">
+    <div class="cardTitle">{{ conta.tipo }}</div>
+    <div class="cardSubTitle">{{ conta.banco }}</div>
+    <div class="info">
+      <div class="icon">
+        <img src="assets/icon/card.svg" alt="card" />
+      </div>
+      <div class="details">
+        <div class="detailsTitle">Número da conta</div>
+        <div class="value">{{ conta.numero }}</div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="info">
+      <div class="account">Duplicar conta</div>
+    </div>
+  </div>
+</div>

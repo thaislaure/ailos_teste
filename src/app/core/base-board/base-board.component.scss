@@ -1,0 +1,26 @@
+.rodape {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  button {
+    border: 1px solid #165c7d;
+    margin-left: 15px;
+    height: 45px;
+    width: 270px;
+    color: #165c7d;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+  }
+
+  .botao {
+    border: 0;
+    margin-left: 15px;
+    background-color: #165c7d;
+    height: 45px;
+    width: 220px;
+    color: #fff;
+    cursor: pointer;
+  }
+}
