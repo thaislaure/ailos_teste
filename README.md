@@ -5,9 +5,9 @@
 ## <p id='tecnologies'>💻 Tecnologias </p>
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
--  [Angular v9.0.7](https://angular.io/)
--  [TypeScript v3.7.5](https://www.typescriptlang.org/)
--  [Node.js v12.11.1](https://nodejs.org/en/)
+-  [Angular v16.1.0](https://angular.io/)
+-  [TypeScript v5.1.3](https://www.typescriptlang.org/)
+-  [Node.js v18.17.0](https://nodejs.org/en/)
 
 
 ## <p id='como'>💻 Como usar </p>
@@ -55,13 +55,3 @@ ng serve
 
 Abra o *browser* e acesse a url http://localhost:4200. Pronto!
 
-
-### Todo list:
-
-Alguns pontos a ser desenvolvidos futuramente:
-
--componente de button
-
--componente de cards
-
--time-line: faltou terminar o component, fiz apenas o html e css
